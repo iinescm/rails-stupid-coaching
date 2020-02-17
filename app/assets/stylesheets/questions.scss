@@ -1,0 +1,44 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container{
+  width: 600px;
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+#ghost {
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+#ghost:hover {
+  opacity: 1;
+}
+
+
+#input[type=text] {
+  width: 30px;
+  box-sizing: border-box;
+  border: 1px solid #4A4A4A;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.2s ease-in-out;
+  border-radius: 50px;
+}
+
+#input[type=text]:focus {
+  width: 50%;
+}
